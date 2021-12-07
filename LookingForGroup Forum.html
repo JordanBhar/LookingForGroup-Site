@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JavaScript/Forum.js" defer></script>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+     integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
+     <title>Looking for Group Forum</title>
+</head>
+
+<body >
+
+    <div id="headerContainer" class="pure-g">
+
+        <img src="CSS/Images/WebsiteLogo.png" class="pure-u-1-5 logo" alt="">
+
+        <h1 class="pure-u-3-5">
+            Dragonrealm LFG
+        </h1>
+
+        <nav class="pure-u-1-5 NavButton">
+            <a class="pure-button" href="InformationPage.html">Author Page</a>
+        </nav>
+    </div>
+
+
+    <div class="pure-g">
+
+        <div class="pure-u-1-5 empty"></div>
+
+        <div id="ForumContainer" class="pure-u-3-5">
+            <form id="postRequirements" class="pure-form pure-form-stacked">
+                <fieldset class="pure-group">
+
+                    <label for="title">Group-Title</label>
+                    <input type="text" id="title" class="pure-u-1-3" />
+
+                    <fieldset class="pure-group">
+                        <label for="description">Specific Group Information</label>
+                        <textarea id="description" class="pure-u-11-12" rows="6" ></textarea>
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="playerNumber">Players Needed</label>
+                        <select id="playerNumber" class="pure-u-1-10">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="activityType">Activity Type</label>
+                        <select id="activityType" class="pure-u-1-2">
+                            <option>Raid</option>
+                            <option>PVP</option>
+                            <option>Dungeon</option>
+                            <option>FreeRoam</option>
+                        </select>
+                    </fieldset>
+
+                </fieldset>
+            </form>
+
+
+            <form id="playerRequirements" class="pure-form pure-form-stacked">
+                <div class="pure-g">
+
+                    <div class="pure-u-1-2">
+
+                        
+                        <fieldset class="pure-group">
+                            <label for="playerType1">Player One</label>
+                            <select id="playerType1" class="pure-u-17-24 playerType">
+                                <option>warlock</option>
+                                <option>knight</option>
+                                <option>Assasin</option>
+                                <option>Brute</option>
+
+                            </select>
+                        </fieldset>
+
+                    </div>
+
+                    <div class="pure-u-1-2">
+
+                    
+                        <fieldset class="pure-group">
+                            
+                            <label for="playerType2">Player Two</label>
+                            <select id="playerType2" class="pure-u-17-24 playerType">
+                                <option>warlock</option>
+                                <option>knight</option>
+                                <option>Assasin</option>
+                                <option>Brute</option>
+
+                            </select>
+                        </fieldset>
+
+                    </div>
+
+                    <div class="pure-u-1-2">
+
+                        
+                        <fieldset class="pure-group">
+                            
+                            <label for="playerType3">Player Three</label>
+                            <select id="playerType3" class="pure-u-17-24 playerType">
+                                <option>warlock</option>
+                                <option>knight</option>
+                                <option>Assasin</option>
+                                <option>Brute</option>
+
+                            </select>
+                        </fieldset>
+
+                    </div>
+
+                    <div class="pure-u-1-2">
+
+                        
+                        <fieldset class="pure-group">
+                            
+                            <label for="playerType4">Player Four</label>
+                            <select id="playerType4" class="pure-u-17-24 playerType">
+                                <option>warlock</option>
+                                <option>knight</option>
+                                <option>Assasin</option>
+                                <option>Brute</option>
+
+                            </select>
+                        </fieldset>
+
+                    </div>
+                </div>
+                
+                <button type="submit" class="pure-button pure-button-primary pure-u-1-3">Submit</button>
+
+            </form>
+        </div>
+
+
+        <div class="pure-u-1-5 empty"></div>
+    </div>
+
+</body>
+
+</html>

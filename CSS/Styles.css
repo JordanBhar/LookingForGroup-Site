@@ -4,37 +4,57 @@
     display: flex;
     background: rgba(40, 42, 44, 0.4);
     
-    height: 100px;
-    
+    height: 150px;
+    align-items: center;
+    padding-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(40, 42, 44, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.logo{
+    
+    height: 250px;
+}
 
 #ForumContainer{
-    margin-top: 20px;
+    margin-top: 30px;
     display: grid;
     background: rgba(40, 42, 44, 0.4);
-    height: 900px;
+    height: 800px;
     border-radius: 1%;
     
+}
+
+.InformationContainer{
+    position: static;
+    margin-top: 30px;
+    display: grid;
+    background: rgba(40, 42, 44, 0.4);
+    height: 800px;
+    border-radius: 1%;
+    margin: 75px;
+}
+
+form label{
+    color: rgb(212, 211, 209);
+}
+
+nav{
+    margin-top: 30px;
+    padding-bottom: 50px;
 }
 
 body{
     background-image: url("xct1f2lftny21.jpg");
 }
 
-form{
-    margin-left: 10%;
+#postRequirements{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#playerRequirements{
+    margin-bottom: 60%;
+    margin-left: 5%;
 }
 
 
-.empty{
-    
-    height: 10px;
-    width: 10px;
-}
-
-#test{
-    width: 300%;
-}
