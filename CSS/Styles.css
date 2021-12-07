@@ -1,7 +1,22 @@
 
-#ForumContainer{
-    display: grid;
+
+#headerContainer{
+    display: flex;
+    background: rgba(40, 42, 44, 0.4);
     
+    height: 100px;
+    
+    box-shadow: 0 4px 8px 0 rgba(40, 42, 44, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#ForumContainer{
+    margin-top: 20px;
+    display: grid;
+    background: rgba(40, 42, 44, 0.4);
+    height: 900px;
+    border-radius: 1%;
     
 }
 
@@ -10,12 +25,12 @@ body{
 }
 
 form{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 
 .empty{
-    background-color: aqua;
+    
     height: 10px;
     width: 10px;
 }
