@@ -34,7 +34,7 @@
         <div class="pure-u-1-5 empty"></div>
 
         <div id="ForumContainer" class="pure-u-3-5">
-            <form id="postRequirements" class="pure-form pure-form-stacked">
+            <form id="formPostRequirements" class="pure-form pure-form-stacked">
                 <fieldset class="pure-group">
 
                     <label for="title">Group-Title</label>
@@ -55,6 +55,9 @@
                         </select>
                     </fieldset>
 
+                    <label for="levelRequirement">Level Requirement</label>
+                    <input id="levelRequirement" type="number" max="50" class="pure-u-1-8">
+
                     <fieldset class="pure-group">
                         <label for="activityType">Activity Type</label>
                         <select id="activityType" class="pure-u-1-2">
@@ -66,86 +69,62 @@
                     </fieldset>
 
                 </fieldset>
-            </form>
 
 
-            <form id="playerRequirements" class="pure-form pure-form-stacked">
-                <div class="pure-g">
 
-                    <div class="pure-u-1-2">
+                <fieldset id="playerClasses">
+                    <div class="pure-g">
 
-                        
-                        <fieldset class="pure-group">
-                            <label for="playerType1">Player One</label>
-                            <select id="playerType1" class="pure-u-17-24 playerType">
+                        <div class="pure-u-1-2">
+                            <label for="playerType1">Player One Class</label>
+                            <select id="playerType1" class="pure-u-17-24 playerType" required="">
+                                <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
                                 <option>Assasin</option>
                                 <option>Brute</option>
-
                             </select>
-                        </fieldset>
 
-                    </div>
-
-                    <div class="pure-u-1-2">
-
-                    
-                        <fieldset class="pure-group">
-                            
-                            <label for="playerType2">Player Two</label>
-                            <select id="playerType2" class="pure-u-17-24 playerType">
+                            <label for="playerType2">Player Two Class</label>
+                            <select id="playerType2" class="pure-u-17-24 playerType" required="">
+                                <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
                                 <option>Assasin</option>
                                 <option>Brute</option>
-
                             </select>
-                        </fieldset>
+                        </div>
 
-                    </div>
-
-                    <div class="pure-u-1-2">
-
-                        
-                        <fieldset class="pure-group">
-                            
-                            <label for="playerType3">Player Three</label>
-                            <select id="playerType3" class="pure-u-17-24 playerType">
+                        <div class="pure-u-1-2">
+                            <label for="playerType3">Player Three Class</label>
+                            <select id="playerType3" class="pure-u-17-24 playerType" required="">
+                                <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
                                 <option>Assasin</option>
                                 <option>Brute</option>
-
                             </select>
-                        </fieldset>
 
-                    </div>
-
-                    <div class="pure-u-1-2">
-
-                        
-                        <fieldset class="pure-group">
-                            
-                            <label for="playerType4">Player Four</label>
-                            <select id="playerType4" class="pure-u-17-24 playerType">
+                            <label for="playerType4">Player Four Class</label>
+                            <select id="playerType4" class="pure-u-17-24 playerType" required="">
+                                <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
                                 <option>Assasin</option>
                                 <option>Brute</option>
-
                             </select>
-                        </fieldset>
+                        </div>
 
                     </div>
-                </div>
+                </fieldset>
+
+
+
+
                 
                 <button type="submit" class="pure-button pure-button-primary pure-u-1-3">Submit</button>
-
             </form>
         </div>
-
-
         <div class="pure-u-1-5 empty"></div>
     </div>
 
