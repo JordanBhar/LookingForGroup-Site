@@ -33,17 +33,19 @@ function validateForm(evt) {
     if (!validForm)
         evt.preventDefault()
 
+    if(validForm){
+        collectData()
+    }
 }
 
 function titleValidate(title) {
 
     if (title.value.length > 0){
-        //console.log(title.value.length)
         title.placeholder = ""
         return true
     }else{
         alert("You Must Enter a Title")
-        title.placeholder = "Enter Value Here"
+        title.placeholder = "Enter Title Here"
         return false
     } 
 }
@@ -59,8 +61,6 @@ function levelValidate(level) {
         return true
     }
 }
-
-
 
 function changeAllowedPlayers(){
 
@@ -86,4 +86,10 @@ function changeAllowedPlayers(){
     else if(statusSpinner.value == 3){
         playerFour.disabled = true
     }
+}
+
+function collectData(/*Pass multiple parameters for data collection*/){
+
+    console.log("collecting Data")
+
 }

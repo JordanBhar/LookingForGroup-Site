@@ -2,12 +2,12 @@
 
 #headerContainer{
     display: flex;
-    background: rgba(40, 42, 44, 0.4);
+    background: rgba(40, 42, 44, 0.5);
     
     height: 150px;
     align-items: center;
     padding-bottom: 50px;
-    box-shadow: 0 4px 8px 0 rgba(40, 42, 44, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(40, 42, 44, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.45);
 }
 
 .logo{
@@ -18,7 +18,7 @@
 #ForumContainer{
     margin-top: 30px;
     display: grid;
-    background: rgba(40, 42, 44, 0.4);
+    background: rgba(40, 42, 44, 0.6);
     height: 800px;
     border-radius: 1%;
     
@@ -44,7 +44,7 @@ nav{
 }
 
 body{
-    background-image: url("xct1f2lftny21.jpg");
+    background-image: url("Images/xct1f2lftny21.jpg");
 }
 
 #formPostRequirements{
