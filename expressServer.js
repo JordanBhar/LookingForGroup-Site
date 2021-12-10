@@ -13,7 +13,10 @@ app.use(express.urlencoded({ extended: true }))
 
 app.get("/DragonrealmPostLFG", function (req, res) { res.sendFile(`${__dirname}/views/LookingForGroupForum.html`) });
 
-app.get("/InformationPage", function (req, res) { res.sendFile(`${__dirname}/views/InformationPage.html`) });
+app.get("/postsData", function(req,res){
+    res.sendFile(`${__dirname}/data/posts.json`)
+    //console.log(req.query.minage)
+})
 
 
 app.post("/DragonrealmPostLFG", function(req , res){
