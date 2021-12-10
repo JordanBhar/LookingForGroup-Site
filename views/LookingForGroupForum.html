@@ -42,12 +42,12 @@
 
                     <fieldset class="pure-group">
                         <label for="description">Specific Group Information</label>
-                        <textarea id="description" class="pure-u-11-12" rows="6" ></textarea>
+                        <textarea id="description" name="description" class="pure-u-11-12" rows="6" ></textarea>
                     </fieldset>
 
                     <fieldset class="pure-group">
                         <label for="playerNumber">Players Needed</label>
-                        <select id="playerNumber" class="pure-u-1-10">
+                        <select id="playerNumber" name="playerNumber" class="pure-u-1-10">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -56,11 +56,11 @@
                     </fieldset>
 
                     <label for="levelRequirement">Level Requirement</label>
-                    <input id="levelRequirement" type="number" max="50" placeholder="1-50" class="pure-u-1-8">
+                    <input id="levelRequirement" name="levelRequirement" type="number" max="50" placeholder="1-50" class="pure-u-1-8">
 
                     <fieldset class="pure-group">
                         <label for="activityType">Activity Type</label>
-                        <select id="activityType" class="pure-u-1-2">
+                        <select id="activityType" name="activityType" class="pure-u-1-2">
                             <option>Raid</option>
                             <option>PVP</option>
                             <option>Dungeon</option>
@@ -77,7 +77,7 @@
 
                         <div class="pure-u-1-2">
                             <label for="playerType1">Player One Class</label>
-                            <select id="playerType1" class="pure-u-17-24 playerType" required="">
+                            <select id="playerType1" name="playerType1" class="pure-u-17-24 playerType" required="">
                                 <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
@@ -86,7 +86,7 @@
                             </select>
 
                             <label for="playerType2">Player Two Class</label>
-                            <select id="playerType2" class="pure-u-17-24 playerType" required="">
+                            <select id="playerType2" name="playerType2" class="pure-u-17-24 playerType" required="">
                                 <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
@@ -97,7 +97,7 @@
 
                         <div class="pure-u-1-2">
                             <label for="playerType3">Player Three Class</label>
-                            <select id="playerType3" class="pure-u-17-24 playerType" required="">
+                            <select id="playerType3" name="playerType3" class="pure-u-17-24 playerType" required="">
                                 <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
@@ -106,7 +106,7 @@
                             </select>
 
                             <label for="playerType4">Player Four Class</label>
-                            <select id="playerType4" class="pure-u-17-24 playerType" required="">
+                            <select id="playerType4" name="playerType4" class="pure-u-17-24 playerType" required="">
                                 <option value="" disabled selected hidden></option>
                                 <option>warlock</option>
                                 <option>knight</option>
