@@ -41,8 +41,8 @@ app.post("/DragonrealmPostLFG", function(req , res){
             if(err) throw err;
             //https://www.youtube.com/watch?v=p2JI2PrvleU
             postCreationAlert("Created Post")
-            //res.send("post Created")
-            res.redirect('/DragonrealmPostLFG') 
+            res.send("post Created")
+            //res.redirect('/DragonrealmPostLFG') 
         });
     });
 } );
